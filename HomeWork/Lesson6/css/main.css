@@ -1,3 +1,9 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.2;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
 body {
   margin: 20px 70px;
   max-width: 100%;
@@ -23,14 +29,16 @@ li{
   padding: 30px 20px;
   background: #99CC01; /* Для старых браузров */
   background: linear-gradient(to top, #99CC01, #779912);
-
-}
-#header h1{
   color: white;
-  margin-left: 10%;
+  padding-left: 10%;
 }
+#header span{
+  color: white;
+}
+
 #bottom{
   background-color: #ECF0FB;
+  margin-bottom: 20px;
 }
 #bottom #text{
   width:  70%;
@@ -45,11 +53,12 @@ li{
   text-align: left;
 }
 #text p {
-  width: 50%;
+  width: 80%;
   text-align: left;
 }
 #bottom img{
-  height: 200px;
+  width: 28%;
+  height: auto;
 }
 .content div{
   margin-left: 1%;
@@ -58,10 +67,12 @@ li{
 #left{
   width: 30%;
   margin-right: 40px;
+  margin-left: 40px;
 }
 
 #right{
-  border-left: 2px solid #ccc;
+  vertical-align: top;
+  border-left: 2px solid #ECF0FB;
   width: 60%;
 
 }
@@ -78,4 +89,37 @@ li{
 }
 #desc {
   width: 60%;
+}
+.first_str{
+  color: #92C204;
+}
+span{
+  font-weight: 700;
+  color: #093500;
+}
+h2{
+  font-family: Helvetica, arial, serif;
+  text-align: left;
+  font-weight: 100;
+  margin: 0;
+  padding: 30px;
+  color: #093500;
+  font-size: 45px;
+}
+
+h3 {
+  color: #093500;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 14px;
+}
+hr{
+  border: none;
+  color: #ECF0FB;
+  background-color: #ECF0FB;
+  height: 10px;
+
+}
+.item hr{
+  height: 2px;
 }
