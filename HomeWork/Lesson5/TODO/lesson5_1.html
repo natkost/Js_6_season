@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Lesson 5</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+  <body>
+    <section style="text-align: center" id="main">
+    <h1>TODO</h1>
+      <header id="header">
+        <button id="all" onclick="viewList()">view all</button>
+        <button id="add" onclick="addToList()">add</button>
+        <button id="del" onclick="delFromList()" >del</button>
+        <button id="active" onclick="addToActive()" >to active</button>
+        <button id="edit" onclick="editList()" >edit list</button>
+      </header>
+      <section id="new">
+        <h3>need to do:</h3>
+        <input id="switch-all" type="checkbox" onchange="selectAll()">
+        <label for="switch-all">Mark all as complete</label><br>
+        <input id="new-event" placeholder="Enter new event:" autofocus>
+      </section>
+      <footer id="footer">
+        <h3>my journal:</h3>
+        <ul id="todo-list">
+          <li><input type="checkbox" checked="false"> Do home work !!!</li>
+        </ul>
+        <h4>Afte Edid: press Enter for update or Esc for Cancel</h4>
+      </footer>
+    </section>
+    <script src="lesson5_1.js"></script>
+  </body>
+</html>

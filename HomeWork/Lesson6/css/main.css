@@ -1,0 +1,81 @@
+body {
+  margin: 20px 70px;
+  max-width: 100%;
+}
+nav{
+  margin: 20px
+}
+nav a{
+  text-decoration: none;
+  color: black;
+}
+
+li{
+  list-style-type: none;
+  display: inline;
+  margin: 0 3%;
+}
+
+#container{
+  max-width: 100%;
+}
+#header {
+  padding: 30px 20px;
+  background: #99CC01; /* Для старых браузров */
+  background: linear-gradient(to top, #99CC01, #779912);
+
+}
+#header h1{
+  color: white;
+  margin-left: 10%;
+}
+#bottom{
+  background-color: #ECF0FB;
+}
+#bottom #text{
+  width:  70%;
+  display: inline-block;
+}
+#text h1{
+  width: 60%;
+  text-align: left;
+}
+#text h5{
+  width: 50%;
+  text-align: left;
+}
+#text p {
+  width: 50%;
+  text-align: left;
+}
+#bottom img{
+  height: 200px;
+}
+.content div{
+  margin-left: 1%;
+  display: inline-block;
+}
+#left{
+  width: 30%;
+  margin-right: 40px;
+}
+
+#right{
+  border-left: 2px solid #ccc;
+  width: 60%;
+
+}
+#right div{
+  margin-bottom: 20px;
+}
+
+#right img{
+  height: 130px;
+  width: 200px;
+}
+.item div{
+  display: inline-block;
+}
+#desc {
+  width: 60%;
+}

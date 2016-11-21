@@ -38,9 +38,15 @@ var drazilTest = [
  * In the first case, F(1234) = 1! * 2! * 3! * 4! = F(33222)
  */
 
-
 function drazil(boys, girls) {
-    //TODO
+    var factorsDigit = function(n){
+        var arr=[];
+        for(var i = 1; i<=n; i++){
+            arr.push(i);
+        }
+    return arr;
+    };
+    console.log(factorsDigit(5));
 }
 
 
