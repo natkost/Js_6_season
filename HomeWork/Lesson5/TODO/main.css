@@ -1,12 +1,22 @@
+
+button {
+  font-size: 18px;
+}
+
 li {
   text-align: left;
 }
 
 ul{
   margin-left: 30%;
+  margin-right: 30%;
 }
 
 #inputField{
   text-align: left;
   margin-left: -35%;
+}
+
+#main{
+  text-align: center;
 }

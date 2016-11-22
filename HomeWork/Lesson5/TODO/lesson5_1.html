@@ -6,27 +6,28 @@
     <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
-    <section style="text-align: center" id="main">
+    <section id="main">
     <h1>TODO</h1>
       <header id="header">
-        <button id="all" onclick="viewList()">view all</button>
-        <button id="add" onclick="addToList()">add</button>
-        <button id="del" onclick="delFromList()" >del</button>
         <button id="active" onclick="addToActive()" >to active</button>
-        <button id="edit" onclick="editList()" >edit list</button>
+        <button id="all" onclick="viewList()">view all</button>
+        <button id="edit" onclick="editList()" >edit item</button>
+        <button id="del" onclick="delFromList()" >del</button>
+        <button id="up" onclick="moveUp()">move Up</button>
+        <button id="down" onclick="moveDown()">move Down</button>
       </header>
       <section id="new">
         <h3>need to do:</h3>
         <input id="switch-all" type="checkbox" onchange="selectAll()">
         <label for="switch-all">Mark all as complete</label><br>
         <input id="new-event" placeholder="Enter new event:" autofocus>
+        <button id="add" onclick="addToList()">add</button>
       </section>
       <footer id="footer">
         <h3>my journal:</h3>
+        <label>Mark item and select action</label>
         <ul id="todo-list">
-          <li><input type="checkbox" checked="false"> Do home work !!!</li>
         </ul>
-        <h4>Afte Edid: press Enter for update or Esc for Cancel</h4>
       </footer>
     </section>
     <script src="lesson5_1.js"></script>
