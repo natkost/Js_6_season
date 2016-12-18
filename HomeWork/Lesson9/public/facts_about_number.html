@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>facts</title>
+  <link href="css/facts_about_number.css" rel="stylesheet" >
+  <link href="css/loading.css" rel="stylesheet" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="js/facts_about_number.js"></script>
+</head>
+<body>
+  <a onClick="history.go(-1);return true;">
+    <img class="back" src="images/back-button.svg">
+  </a>
+  <div id="loading-bro" hidden="true">
+    <h3>Loading</h3>
+    <svg id="load" x="0px" y="0px" viewBox="0 0 150 150">
+      <circle id="loading-inner" cx="75" cy="75" r="60"/>
+    </svg>
+  </div>
+  <div class="inputs">
+    <input id="number" type="text" placeholder="Input number" />
+    <input type="button" id="submit" value="GO" />
+  </div>
+  <script type="text/javascript" src="js/pixies_dust.js"></script>
+</body>
+</html>

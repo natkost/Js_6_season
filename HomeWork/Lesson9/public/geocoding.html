@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>geocoding</title>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="css/geocode.css">
+</head>
+<body>
+  <div id="floating-panel">
+    <input id="address" type="textbox" value="Sydney, NSW">
+    <input id="submit" type="button" value="Geocode">
+    <div id="coordinates">
+      Lat:<span id="lat">xxx</span>
+      Lng:<span id="lng">xxx</span>
+    </div>
+  </div>
+  <div id="map"></div>
+
+  <script src="js/geocode.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0cpLTNMBHHmveYoyPbHbV7QZElIU84MI&signed_in=true&callback=initMap"
+  async defer></script>
+</body>
+</html>
