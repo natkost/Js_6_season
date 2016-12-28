@@ -14,6 +14,7 @@ $(document).ready(function(){
           .appendTo("#ul-titles");
         words = words+value.title+" ";
       });
+      //words = words.toLowerCase();
 
       // Transform string of words to array
       var arrWords = words.split(/[^a-zа-яё'єії]+/gim);
