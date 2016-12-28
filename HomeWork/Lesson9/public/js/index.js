@@ -1,4 +1,4 @@
-var links = [{label: 'geocode', bg: '#c0392b', href: "11"},
+var links = [{label: 'geocode', bg: '#c0392b'},
             {label: 'yoda', bg: '#16a085'},
             {label: 'about number', bg: '#8e44ad'},
             {label: 'kitty', bg: '#220057'}];

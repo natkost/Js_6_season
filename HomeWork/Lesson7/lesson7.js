@@ -1,12 +1,19 @@
 $(document).ready(function(){
-  $("#new-event").keyup(function(e){
+  var newEvent = $("#new-event");
+  var count;
+  newEvent.keyup(function(e){
     if (e.which === 13) {
-      $("#ul-events")
-        .append("<li><input type='checkbox' />" + $("#new-event").val() +"</li>");
-    e.target.blur();
+      $("#ul-events").append("<li><input type='checkbox' />" + $("#new-event").val() +"<button> x</button></li>");
+      // newEvent.val("What need to be done?");
+      e.target.blur();
+      count = $("#ul-events").length;
+      console.log(count);
+      //$('strong').val(count);
     }
   return false;
   });
+
+
 });
 
 

@@ -1,0 +1,26 @@
+body {
+  background-color: rgba(0, 0, 255, 0.1);
+}
+
+#section-main {
+  display: inline-flex;
+}
+
+h1 {
+  color: rgb(0, 0, 160);
+}
+
+#h1-main{
+  text-align: center;
+  font-weight: bold;
+}
+
+#section-left {
+  border-right: 1px solid blue;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#section-right {
+  padding-left: 15px;
+}
